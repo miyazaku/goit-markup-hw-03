@@ -284,7 +284,7 @@ gap: 24px;
     padding: 32px 0;
     text-align: center;
     margin-bottom: 8px;
-    
+
 }
 
 
@@ -338,7 +338,7 @@ gap: 24px;
     width: calc ((100% - 48px ) / 3); 
 
 }
-.container-portfolio {
+.container-card-portfolio {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -374,7 +374,12 @@ gap: 24px;
 .page-footer {
     background: #2e2f42;
     padding: 100px 0 ;
-        }
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 321px;
+}
+
 
 .page-logo-footer {
     font-family: "Raleway", sans-serif;
@@ -383,7 +388,7 @@ gap: 24px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; 
+    color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
      
