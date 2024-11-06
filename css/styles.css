@@ -36,6 +36,7 @@ img {
     margin-right:auto;
     padding-left:15px;
     padding-right:15px;
+    display: flex;
 }
 .section-padding {
     padding-top: 120px;
@@ -70,6 +71,7 @@ background-color:#FFFFFF;
 width: 1440px;
     height: 72px;
     flex-shrink: 0;
+border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -77,6 +79,7 @@ width: 1440px;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .page-logo {
@@ -86,6 +89,7 @@ width: 1440px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 78px;
   
 }
 
@@ -99,9 +103,9 @@ width: 1440px;
     color: #2e2f42;
 }
 
-.menu{
+.menu {
     display: flex;
-    column-gap: 42px;
+    gap: 40px;
 }
 
 .menu-item,
@@ -125,7 +129,7 @@ width: 1440px;
 }
 .menu-address{
     display: flex;
-    column-gap: 42px;
+    gap: 40px;
 }
 .menu-address-item,
 .menu-address-link {
@@ -176,11 +180,14 @@ width: 1440px;
 }
 
 .page-button{
-    display: inline-flex;
+    display: block;
         padding: 16px 32px;
         align-items: flex-start;
+        min-width: 169px;
+        height: 56px;
         gap: 10px;
-       border-radius: 4px;
+       border:none;
+    border-radius: 4px;
             background: var(--IRIS, #4D5AE5);
 
            
@@ -218,13 +225,16 @@ color: var(--WHITE, #FFF);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .menu-description {
     display: flex;
+    gap: 24px;
 
 }
 .menu-description-item {
-    padding-right: 24px;
+ calc ( (100% - 72px) / 4) ;
+
 }
 
 .menu-text {
@@ -349,6 +359,7 @@ justify-content: space-between;
     width: 1440px;
         height: 312px;
         flex-shrink: 0;
+        padding: 100px;
         }
    
 
@@ -360,8 +371,9 @@ justify-content: space-between;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
+    display: inline-block;
     align-items: center;
+    margin-bottom: 16px;
     
 }
  
@@ -384,7 +396,7 @@ justify-content: space-between;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    padding-top: 17.5px;
+  
 }
 
 /*==========/FOOTER STYLE==========*/
