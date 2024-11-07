@@ -30,7 +30,7 @@ img {
     display: block;
 }
 
-.container {
+.container-header {
     max-width:1158px;
     margin-left: auto;
     margin-right:auto;
@@ -339,7 +339,7 @@ gap: 24px;
 }
 .menu-portfolio-item {
     background-color: #FFF;
-    calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 
 }
 .container-card-portfolio {
@@ -394,6 +394,8 @@ gap: 24px;
     margin-bottom: 16px;
      
 }
+
+
  
 
 .text-color-footer {
