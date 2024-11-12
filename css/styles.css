@@ -378,6 +378,8 @@ list-style: none;
         letter-spacing: 0.02em;
         color: #2e2f42;
         max-width: 360px;
+        margin-bottom: 8px
+     
         
      
 }
@@ -389,6 +391,7 @@ list-style: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+     
 
    
 }
